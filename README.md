@@ -39,8 +39,10 @@ Colonnes catégorielles : Product, Payment_Method, City, Store_Type, Customer_Ca
 Utilisation de LabelEncoder.
 Colonnes numériques : Total_Items, Total_Cost, Discount_Applied
 Normalisation avec MinMaxScaler.
+
 **2. Interface Utilisateur avec Streamlit**
-Fonctionnalités Principales :
+
+*Fonctionnalités Principales :*
 
 Titre de l'Application : "Interactive Unsupervised Prediction"
 Sélection de la Colonne Cible pour la Prédiction :
@@ -54,7 +56,9 @@ Saisie des Valeurs des Fonctionnalités :
 
 *Colonnes catégorielles :* Sélection parmi les valeurs uniques disponibles.
 Colonnes numériques : Utilisation de curseurs pour sélectionner les valeurs.
+
 **3. Analyse en Composantes Principales (PCA)**
+
 *Étapes :*
 
 *Application de PCA :*
@@ -64,7 +68,9 @@ Affichage des résultats de PCA avec un graphique scatterplot incluant les donn�
 *Résultats :*
 
 Affichage des résultats de PCA et visualisation des points de données sur deux axes principaux (PC1 et PC2).
+
 **4. Clustering KMeans**
+
 *Étapes :*
 
 *Détermination du Nombre de Clusters :*
@@ -80,7 +86,9 @@ Affichage de la correspondance pour interpréter les résultats.
 *Visualisation :*
 
 Affichage des résultats de clustering avec PCA, en utilisant différentes couleurs pour représenter les clusters.
+
 **Conclusion et Utilisation**
+
 L'application interactive développée permet aux utilisateurs de charger des données, de sélectionner les caractéristiques pertinentes, et d'effectuer des analyses non supervisées en utilisant PCA et KMeans. Les utilisateurs peuvent visualiser les résultats sous forme de graphiques interactifs et comprendre la segmentation des données.
 
 **Recommandations :**
